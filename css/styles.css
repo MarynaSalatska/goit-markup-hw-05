@@ -61,6 +61,10 @@ img {
 
   text-align: center;
   border: 1px solid transparent;
+
+  transition-property: background-color, color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: -cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button.all {
   min-width: 73px;
@@ -131,20 +135,19 @@ li .link:focus {
 
 li .link.current {
   color: var(--decoration-text-color);
-
 }
-.nav-li{
+.nav-li {
   position: relative;
 }
-li .link.current::after{
-  content: "";
+li .link.current::after {
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 4px;
   border-radius: 2px;
-  background-color:var(--decoration-text-color)
+  background-color: var(--decoration-text-color);
 }
 
 /* main page */
