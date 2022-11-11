@@ -48,7 +48,7 @@
     <section class="solution">
       <div class="container">
         <h1 class="solution-title">Ефективні рішення для вашого бізнесу</h1>
-        <button class="solution-button" type="button">
+        <button class="solution-button" type="button" data-modal-open>
           Замовити послугу
         </button>
       </div>
@@ -115,12 +115,21 @@
         <ul class="items">
           <li class="item">
             <img src="images/box-1.jpg" alt="створення вебсторінок" width="370" height="294" />
+            <div class="item-affect">
+              <h3 class="item-aff">Десктопні додатки</h3>
+            </div>
           </li>
           <li class="item">
             <img src="images/box-2.jpg" alt="створення додатку" width="370" height="294" />
+            <div class="item-affect">
+              <h3 class="item-aff">Мобільні додатки</h3>
+            </div>
           </li>
           <li class="item">
             <img src="images/box-3.jpg" alt="створення дизайну" width="370" height="294" />
+            <div class="item-affect">
+              <h3 class="item-aff ">Дизайнерські рішення</h3>
+            </div>
           </li>
         </ul>
       </div>
@@ -385,6 +394,12 @@
       </div>
     </div>
   </footer>
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button type="button" class="close-btn" data-modal-close>x</button>
+    </div>
+  </div>
+  <script src="js/modal.js"></script>
 </body>
 
 </html>
