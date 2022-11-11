@@ -26,14 +26,6 @@ ul {
   margin: 0;
 }
 
-/* li{
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-right: 0;
-  margin-left: 0;
-  font-weight: 0;
-} */
-
 h1,
 h2,
 h3,
@@ -135,9 +127,6 @@ header {
 li .link:hover,
 li .link:focus {
   color: var(--decoration-text-color);
-  /* transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: -cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 li .link.current {
@@ -224,9 +213,6 @@ li .link.current {
 .solution-button:focus {
   background-color: var(--solution-button-color);
   cursor: pointer;
-  /* transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: -cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .section-feature {
@@ -370,9 +356,6 @@ ul.list {
 .footer-link:focus,
 .footer-link:active {
   color: var(--decoration-text-color);
-  /* transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: -cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .footer-address {
   text-decoration: none;
@@ -387,9 +370,6 @@ ul.list {
 .footer-address:hover,
 .footer-address:focus {
   color: var(--decoration-text-color);
-  /* transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: -cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 /* ------------------portfolio ==================*/
@@ -435,9 +415,6 @@ ul.list {
   box-sizing: border-box;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-  /* transition-property: box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: -cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .works-title {
@@ -488,9 +465,6 @@ ul.list {
 .link.contact:focus .icon,
 .link.contact:active .icon {
   fill: var(--decoration-text-color);
-  /* transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: -cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .list-icon {
@@ -532,9 +506,6 @@ ul.list {
 .social-link:focus {
   background-color: var(--decoration-text-color);
   color: var(--primary-body-color);
-  /* transition-property: background-color, color;
-  transition-duration: 250ms;
-  transition-timing-function: -cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .social-link:hover .icon,
 .social-link:focus .icon {
@@ -575,9 +546,6 @@ ul.list {
 .client-link:focus {
   border: 1px solid var(--decoration-text-color);
   border-radius: 4px;
-  /* transition-property: border-radius, border;
-  transition-duration: 250ms;
-  transition-timing-function: -cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .client-link .icon {
@@ -590,9 +558,6 @@ ul.list {
 .client-link:hover .icon,
 .client-link:focus .icon {
   fill: var(--decoration-text-color);
-  /* transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: -cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 /* ------------footer-------- */
@@ -622,9 +587,6 @@ ul.list {
 .footer-social .social-link:focus {
   background-color: var(--decoration-text-color);
   color: var(--primary-body-color);
-  /* transition-property: background-color, color;
-  transition-duration: 250ms;
-  transition-timing-function: -cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .social-link .icon {
@@ -635,9 +597,6 @@ ul.list {
 .social-link:hover .icon,
 .social-link:focus .icon {
   fill: var(--primary-body-color);
-  /* transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: -cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .footer-social .footer-title {
   font-weight: 700;
@@ -687,8 +646,6 @@ ul.list {
 .item {
   position: relative;
 }
-
-/* <img src="/lms-html-css-homework/v2/uk/img/05-preview.gif" alt="card overlay preview" style="display:block;width:100%;margin-left:auto;margin-right:auto;margin-bottom:var(--ifm-leading);max-width:600px" class="medium-zoom-image"> */
 
 .work-img:hover .work-top-text {
   transform: translateY(0);
@@ -762,12 +719,3 @@ ul.list {
   opacity: 0;
   pointer-events: none;
 }
-
-/* .block__item {
-    width: 200px;
-    height: 200px;
-    background-color: rgb(81, 81, 218, 0.8);
-    transition-duration: 0.5s, 1s;
-    transition-property: width, height;
-    transition-delay: 0s, 0.5s;
-    transition-timing-function: ease; */
